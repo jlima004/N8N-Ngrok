@@ -1,7 +1,7 @@
 version: 2
 log_level: debug
 tunnels:
-  n8n:
+  n8n-ngrok:
     proto: http
-    addr: n8n:5678
+    addr: n8n-ngrok:5678
     domain: voncile-incontestable-inappropriately.ngrok-free.dev
